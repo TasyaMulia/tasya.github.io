@@ -1,0 +1,846 @@
+*{margin: 0px;padding: 0px;}
+body {
+    font-size: 14px;
+    font-family: 'times new roman';
+}
+.container{
+    width: 100%;
+    height: 500px;
+}
+
+menu{
+    background:whitesmoke;
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 9999;
+}
+
+/* Ini css menu kiri */
+.heading{
+    float: left;
+    width: 640px;
+    margin-right: -430px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    line-height: 65px;
+}
+nav ul li a {
+    float: left;
+    width:100px; 
+    display:block; 
+    text-align:center; 
+    color:black; 
+    text-decoration:none; 
+}
+nav ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color:whitesmoke;
+    float: none;
+    top:65px; 
+    width:190px;
+    /* z-index: 9999; */
+}
+nav ul li a:hover {
+    background-color:whitesmoke; 
+    display:block;
+    color: maroon;
+}
+nav ul li:hover ul {
+    display:block;
+}
+nav ul ul li a {
+    display:block;
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+    height: 60px;
+    line-height: 60px;
+}
+nav ul ul li a:hover {
+    color:maroon;
+}
+.heading img{
+    float: left;
+    width: 100px;
+    margin-bottom:50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left:30px;
+}
+
+/*Ini CSS menu kanan */
+.kontak img{
+    width: 20px;
+    float: right;
+    margin-right: 300px;
+    margin-top: -20px;
+}
+.logo1 img{
+    width: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.kontak p{
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px;
+}
+.cari{
+    width: 70px;
+    height: 70px;
+    background-color: darkgreen;
+    float: right;
+}
+.cari img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+/*ini css walpaper ke-2*/
+.fotowalpaper img{
+    width: 100%;
+    height: 700px;
+}
+/* edit tulisan foto walpaper ke-2*/
+.foto{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.tulisanfoto{
+    position: absolute;
+    width: 50%;
+    bottom: 60%;
+    top: 40%;
+    left: 25%;
+}
+.tulisanfoto .tulisantgh{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    margin-top: -200px;
+    display: inline;
+}
+.tulisanfoto h3{
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 221, 171);
+    margin-bottom: 100px;
+}
+.tulisanfoto p{
+    font-size: 25px;
+    font-family: verdana;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+.tulisanfoto button{
+    
+    padding: 15px;
+    background-color: rgb(223, 202, 85);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tulisanfoto{
+    text-align: center;
+}
+.tulisanfoto button:hover{
+    background-color:orange;
+}
+.tulisanfoto button:hover{
+    background-color:orange;
+}
+/* akhir walpaper2 */
+.akhirwalpaper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(126, 95, 11);
+    position: relative;
+    padding: 50px 0;
+    border: 1px solid black;
+    margin-top: 200px;
+} 
+
+.akhirwalpaper .center-konten{
+    width: 60%;
+    margin: auto;
+       
+}
+
+.akhirwalpaper p{
+    font-size: 20px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 35px;
+    margin-top: 30px;
+    
+}
+.akhirwalpaper input{
+    margin-left: 40px;
+    margin-top: 28px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 10px;
+    color: wheat;
+    border: 1px solid white;
+}
+.akhirwalpaper select{
+    margin-left: 60px;
+    margin-top: 25px;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+.akhirwalpaper button{
+    margin-left: 80px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(129, 101, 25);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.akhirwalpaper button:hover{
+    background-color: orange;
+}
+
+/*popular destination*/
+.bagian1 h4{
+    font-size: 30px;
+    font-family: Verdana;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.bagian1 p{
+    text-align: center;
+    font-size: 14px;
+    font-family: verdana;
+    margin: 10px;
+}
+
+/* foto popular destination */
+.fotogaleri{
+    width: 100%;
+    margin-top: 80px;
+    height: 650px;
+    margin-bottom: 20px;
+}
+.fotogaleri .fotoall{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.fotogaleri .fotoall .foto{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+}
+.fotogaleri .foto img{
+    width: 100%;
+    height: 260px;
+    border-radius: 5%;
+}
+.foto{
+    position: relative;
+}
+.foto .nomor{
+    position: absolute;
+    width: 19%;
+    background-color: darkgreen;
+    color: white;
+    left: 45%;
+    bottom: 30%;
+    border-radius: 35%;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.foto .judul{
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    color: white;
+}
+
+.fotogaleri .foto:hover .nomor{
+    background-color: maroon;
+}
+
+.fotogaleri .foto:hover .judul{
+    color: red;
+}
+.fotogaleri .foto:hover img{
+    transform: translate(0,-10px);
+}
+
+
+/*bawah galerifoto*/
+.bawahgaleri{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(138, 119, 16);
+    overflow: hidden;
+}
+.bawahgaleri .tengah{
+    margin: auto;
+    width: 1200px;
+    height: 140px;
+}
+.bawahgaleri .kiri{
+    float: left;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.bawahgaleri .kiri h3{
+    color: wheat;
+    font-size: 23px;
+}
+.bawahgaleri .kiri p{color: rgb(215, 206, 206); font-size: 13px; margin-top: 10px;}
+.bawahgaleri .kanan{
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+.bawahgaleri .kanan input{
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.bawahgaleri .kanan button{
+    width: 100px;
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: -15px;
+}
+.bawahgaleri .kanan button:hover{ background-color: green;}
+
+/*Populer Places*/
+.Populerpcs{
+    width: 100%;
+    height: 800px;
+}
+.fotoplcs{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.bagian1 h3{
+    text-align: center;
+    color: black;
+    font-family: verdana;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.bagian1 p{font-size: 13px;color: rgb(160, 168, 174);}
+
+.box{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 270px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    float: left;
+    margin-right: -40px;
+}
+.box  img{
+    width: 300px;
+    height: 150px;
+    border: 5px;
+    margin-left: -15px;
+    margin-top: -12px;
+}
+.box h3{
+    position: absolute;
+    bottom: 95px;
+    font-size: 20px;
+}
+.box p{
+    position: absolute;
+    bottom:75px;
+    margin-left:-0px;
+}
+.box .bawah .kanan img{
+    width:60px;
+    height: 15px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: -0px;
+}
+.box .bawah .kanan h6{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 65px;
+}
+.box .bawah .kanan p{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 230px;
+    font-size: 12px;
+}
+.box .nomer{
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+    top: 30px;
+}
+
+/*Button more places */
+.buttonbawah{
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+.buttonbawah button{
+    width: 170px;
+    height: 50px ;
+    float: left;
+    margin-left: 45%;
+    background-color: brown;
+    color: white;
+    border: none; border-radius: 10px;
+}
+.buttonbawah button:hover{ background-color: green;}
+
+/*Video */
+.video{
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    position: relative;
+}
+.fotovid{
+    width: 100%;
+    height: auto;
+}
+.video .fotovid img{
+    width: 100%;
+    height: 500px;
+}
+.video .button{
+  width: 100px;
+  border-radius: 50px;
+  background-color: green;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: 48%;
+}
+.button img{
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.fotovid h3{
+    margin-left: 40%;
+    position: absolute;
+    top: 20%;
+    font-size: 70px;
+    font-family: brush script mt;
+    color: white;
+}
+
+/*bawah video*/
+.bawahvideo{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.bawahvideo .containervidd{
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+}
+.bawahvideo .bag1{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+/*Comment*/
+.coment{
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.isi{width: auto; height: auto;}
+.coment .isi img{
+    width: 70px;
+    height: 70px;
+    margin-left: 47%;
+    margin-top: 70px;
+}
+.coment .isi p{ text-align: center; margin-top:20px;}
+.coment .isi h3{
+    font-size: 15px; 
+    color: rgb(184, 185, 183);
+    text-align: center;
+    margin-top: 15px;
+}
+.coment .geser img{width: 50px; margin-left: 48%; margin-top: 20px;}
+
+/*Recent Trips*/
+.recent{
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -110px;
+    display: flex;
+    justify-content: center;
+}
+.recent .fotorec{
+    width: auto; height: auto;
+    float: left;
+    margin-bottom: 30px; margin-top: 40px;
+    margin-left: 180px;
+    margin-right: -95px;
+}
+.recent .fotorec img{
+    width: 200px; height: 200px;
+    border: none; border-radius: 10px;
+    margin-top: 50px;
+}
+.tulisan p{
+    margin-top: 50px;
+    font-size: 30px; font-family: verdana;
+    text-align: center;
+}
+.recent .fotorec p{
+    font-size: 12px; color: rgb(156, 156, 156);
+    text-align: left;
+    margin-top: 20px; margin-bottom: 30px;
+
+}
+.recent .fotorec h5{margin-top: 15px; font-size: 15px; font-family: verdana;}
+
+/*footer*/
+.footer{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: rgb(133, 99, 8);
+}
+
+
+/*Peta Maps*/
+.maps iframe{width: 70%; margin-top: 90px; margin-left: 200px;
+}
+/* Isian From contact*/
+.isianfrom2{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.isianfrom2 h3{
+    margin-left: 40px; margin-top: 60px; margin-bottom: 20px; font-size: 20px;
+}
+.isianfrom2 .kiri textarea{  margin-left: 40px;}
+.isianfrom2 .kiri .nama input {margin-left: 40px; margin-top: 20px;
+padding: 10px; width: 245px;}
+.isianfrom2 .kiri input{
+    margin-left: 40px; padding: 10px; margin-top: 20px; width: 560px;
+}
+.isianfrom2 .kiri .klik button{margin-left: 40px; margin-top: 30px; margin-bottom: 50px;
+background-color: green; color: white; width: 100px; padding: 10px; border:none;}
+.isianfrom2 .kanan .kanan1{
+    float: right;
+    margin-top: -300px;
+}
+.isianfrom2 .kanan .kanan1 img{
+    width: 50px; height: 50px;
+}
+.isianfrom2 .kanan .kanan1 h5{float: right; font-size: 16px;
+}
+.isianfrom2 .kanan .bawahkanan1 p{float: right; margin-top :-280px; font-size: 13px; margin-right:70px;}
+
+
+/footer/
+.footer{
+    margin: auto;
+    width: 100%;
+    height:600px;
+    background-color: rgb(156, 127, 45);
+    margin-top: 30px;
+}
+.footer .container{
+    width: 1200px;
+    height:600px;
+    margin: auto;
+}
+.footer .bg1 .atas img{
+    margin-top: 30px;
+}
+.footer .bg1 .atas .gab{
+    margin-top: 35px;
+}
+
+.footer .bg1 .atas .ulli{
+}
+
+.footer .bg1 .atas ul li{
+    list-style: none;
+}
+.footer .bg1 .bawah{
+    margin-top: 20px;
+}
+
+.footer .footeratas{
+    width: 1100px;
+    height: 400px;
+    margin-left: 50px;
+}
+.footeratas .bg1{
+    width: auto;
+    margin-left: 15px;
+    height: 300px;
+    margin-top: 20px;
+    float: left;
+}
+.footer .bg1 .bawah img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.bg1 ul li{
+    list-style: none;
+}
+
+.bg1 .ke2 .bungkus ul li{
+    margin-left: 75px;
+    margin-bottom: 5px;
+}
+.bg1 .ke2 ul a{
+    font-size: 16px;
+    color: grey;
+}
+.bg1 .pembungkusfut .kiri{
+    width: 65px;
+    height: 100px;
+    margin-left: 20px; margin-top: 60px;
+}
+.bg1 .pembungkusfut .kanan{
+    width: 65px;
+    height: 100px;
+    margin-right: 20px; margin-top: 60px;
+}
+.bg1 .pembungkusfut .kiri ul li a{
+    color: grey;
+    line-height: 25px;
+}
+.bg1 .pembungkusfut .kanan ul li a{
+    color: grey;
+    line-height: 25px;
+}
+.bg1 .ke2 .bungkus{
+    width: 256px;
+    height: 150px;
+    margin-top: 60px;
+}
+.bg1 h3{
+    font-size: 18px;
+    text-align: center; color:white;
+}
+.bg1 .bjudul {
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+}
+.bg1 .pembungkusfut{
+    overflow: hidden;
+}
+.bg1 .pembungkusfut .kiri{
+    float: left;
+}
+.bg1 .pembungkusfut .kanan{
+    float: right;
+}
+.bg1 .imgfut{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+.bg1 .imgfut img{
+    margin-left: 5px; margin-top: 5px;
+    border-radius: 5px;
+}
+
+.bg1 .imgfut img{
+    width: 70px; height: 70px;
+}
+.footer .footerbawah{
+    width: 1100px;
+    height: 100px;
+    margin-left: 50px; margin-top: 30px;
+}
+.footer .footerbawah .contfb{
+    width: 800px;
+    height: 60px;
+    margin: auto;
+}
+.footer .footerbawah .contfb p{
+    text-align: center;
+    color: white; 
+    margin-top: 20px;
+}
+.footer .allbg1{
+    width: 1100px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*Form Contact*/
+.formbawah {
+    width:100%; 
+    display:flex; 
+    justify-content:center;
+    margin-bottom: 90px;
+}
+
+.form {
+    width: 650px; 
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.formbawah .form h1 {
+    font-size: 30px;
+}
+
+.formbawah textarea {
+    width: 650px; 
+    border:1px solid black;
+}
+
+.formbawah .input-form {
+    display: grid; 
+    grid-template-columns: auto auto; 
+    width: 650px; 
+    justify-content: 
+    space-between; 
+    margin-top: 12px;
+}
+
+.formbawah .input-form input {
+    width: 200px;
+    border: 1px solid black;
+    height: 40px;
+    padding: 12px;
+    float: right;
+    margin-bottom: 12px;
+}
+
+.formbawah .input-form .input-name {
+    width: 200px; 
+    border:1px solid black; 
+    padding: 12px; 
+    float: right; 
+    margin-left: -400px;
+    height: 40px;
+}
+
+.formbawah .input-form .input-subject {
+    width: 650px; 
+    padding:12px;
+}
+
+
+.formbawah .kirim-send button {
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 12px;
+      background: aqua;
+      border-radius: 3px;
+}
+
+.formbawah .kirim-send button:hover {
+    background: red;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.bungkus-dalam {
+    flex-direction: row;
+}
+.bungkus-kiri {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.kananform .gambar-kiri img {
+    width: 50px;
+}
+
+.kananform .bungkus-kiri .tulisan-kanan {
+    margin-bottom: 30px;
+}
+.kananform {
+    margin-left: 90px;
+}
+
+.kananform .tulisan-kanan {
+    display: grid;
+    grid-template-columns: row;
+}
+
+
+
+
+
+
